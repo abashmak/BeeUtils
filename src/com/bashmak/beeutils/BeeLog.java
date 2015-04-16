@@ -23,6 +23,7 @@ public class BeeLog
 			mTag = logTag;
 		if (logLevel >= 0)
 			mLevel = logLevel;
+		Log.v(mTag, "Debug log verbosity set to " + mLevel);
 	}
 
 	/*==========================================================================================
